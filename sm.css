@@ -1,0 +1,80 @@
+@import "https://fonts.googleapis.com/css?family=Dancing+Script";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
+    font-size: 24px;
+}
+
+body{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #212121;
+}
+
+h3{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+    margin: 20 0 40px;
+    font-weight: 700;
+    font-size: 25px;
+    text-shadow: 0 0 10px #fff;
+}
+p{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+    margin: 20 0 40px;
+    font-weight: 500;
+    font-size: 18px;
+    text-shadow: 0 0 10px #fff;
+}
+
+.social-media-apps{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+li{
+    list-style-type: none;
+    margin: 0 10px;
+    cursor: pointer;
+    text-align: center;
+    &:hover{
+        transform: scale(1.25);
+    }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #ffffff;
+    text-shadow: 0 0 10px #68fb63;
+    font-size: 25px;
+    border: 1px solid #68fb63;
+    padding: 8px;
+    border-radius: 50%;
+    transition: all 0.3s;
+    
+}
+
+.social-media-apps li:hover{
+    border:1px solid #68fb63;
+    color: #212121;
+}
+.social-media-apps>li{
+    opacity: 0.1;
+}
+
+.social-media-apps>li:hover{
+    opacity: 1;
+}
